@@ -8,3 +8,9 @@ Create your data volume image and place required configuration files based on th
 
 * /etc/nginx/conf.d -> nginx configuration
 * /etc/consul-template -> Consul Template configurations taken and merged alphabetically - https://github.com/hashicorp/consul-template
+
+# Run
+
+```
+docker run --rm --volumes-from=yourdata-image -ti seges/nginx-consul:1.9.0
+```
