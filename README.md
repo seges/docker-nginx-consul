@@ -7,7 +7,8 @@ This Docker image follows official Nginx image extended with Consul Template to 
 Create your data volume image and place required configuration files based on the following matrix:
 
 * /etc/nginx/conf.d -> nginx configuration
-* /etc/consul-template -> Consul Template configurations taken and merged alphabetically - https://github.com/hashicorp/consul-template
+* /etc/consul-template/conf -> Consul Template configurations taken and merged alphabetically - https://github.com/hashicorp/consul-template
+* /etc/consul-template/templates -> a good place to situate your templates defined in the configuration
 
 # Run
 
