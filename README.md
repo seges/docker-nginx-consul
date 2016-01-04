@@ -13,5 +13,5 @@ Create your data volume image and place required configuration files based on th
 # Run
 
 ```
-docker run --rm --volumes-from=yourdata-image -ti seges/nginx-consul:1.9.0
+docker run --rm --volumes-from=yourdata-image -ti seges/nginx-consul:1.9.9
 ```
