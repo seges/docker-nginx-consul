@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/seges/docker-nginx-consul.svg?branch=master)](https://travis-ci.org/seges/docker-nginx-consul)
+
 # Nginx with Consul Template
 
 This Docker image follows official Nginx image extended with Consul Template to allow to refresh configuration based on the changes in Consul repository
