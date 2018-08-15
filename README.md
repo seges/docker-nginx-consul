@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.org/seges/docker-nginx-consul.svg?branch=master)](https://travis-ci.org/seges/docker-nginx-consul)
 
+TODO: update img tag
 [![](https://badge.imagelayers.io/seges/nginx-consul:1.9.9.svg)](https://imagelayers.io/?images=seges/nginx-consul:1.9.9 'Get your own badge on imagelayers.io')
 
 # Nginx with Consul Template
@@ -17,5 +18,9 @@ Create your data volume image and place required configuration files based on th
 # Run
 
 ```
-docker run --rm --volumes-from=yourdata-image -ti seges/nginx-consul:1.9.9
+docker run --rm --volumes-from=yourdata-image -ti seges/nginx-consul:1.14.0
 ```
+
+# Refs to blog
+
+[Blog1](https://medium.com/@ladislavGazo/easy-routing-and-service-discovery-with-docker-consul-and-nginx-acfd48e1a291)
