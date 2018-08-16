@@ -76,6 +76,7 @@ public class DiscoveryAgentActor extends AbstractActor {
               // send each (10seconds default) health-check to consul
               .scheduler()
               .schedule(
+                  // delay before 1st request
                   new FiniteDuration(5, TimeUnit.SECONDS),
                   SCHEDULED_WORK_DELAY,
                   healthCheck(),
