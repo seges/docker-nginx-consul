@@ -79,7 +79,6 @@ services:
     volumes:
     #      templates
     - "./nginx-setup/templates/template.ctmpl:/etc/consul-template/templates/template.ctmpl"
-#    - "./nginx-setup/templates:/etc/consul-template/templates"
     #      config
     - "./nginx-setup/conf:/etc/consul-template/conf"
     depends_on:
