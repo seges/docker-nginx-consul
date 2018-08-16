@@ -1,7 +1,7 @@
 # Docker-compose example
 
 * Consul cluster: 3 nodes
-* Example app: 3 replicas
+* Example app: 3 replicas, each replica connect to different consul node in cluster
 * Nginx + consul-template node. It is used as gateway & loadbalancer 
 
 ## Notes
